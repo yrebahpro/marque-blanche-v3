@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
     this.initTheming();
   }
 
-  // init theme service and set data-attr to html tag (to define theme to apply by client url)
+  // init theme service and set data-attr to html tag (to define theme to apply from client url)
   initTheming(): void {
     this.themeService.init();
     let timeout = setTimeout(()=>{
